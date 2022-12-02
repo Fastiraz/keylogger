@@ -46,6 +46,3 @@ while True:
     
 
 socket.close()
-
-#https://medium.com/analytics-vidhya/python-keylogger-tutorial-ef178d02f24a
-
