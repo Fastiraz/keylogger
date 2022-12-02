@@ -8,10 +8,6 @@ def sender(message):
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect((adresseIP, port))
     print("Connection established.")
-    #print("To close connection enter [STOP]")
-    #message = ""
-    #while message.upper() != "STOPIT":
-    #    message = input("➜ ")
     client.send(message.encode("utf8"))
     print("Connection closed.")
     client.close()
